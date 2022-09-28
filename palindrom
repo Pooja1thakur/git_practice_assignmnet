@@ -1,0 +1,11 @@
+let string="naman";
+let new_str="";
+for(let i=0;i<string.length;i++){
+new_str=new_str+string[i];
+}
+if(string==new_str){
+console.log("string is palindrom");
+}
+else{
+console.log("string is not a palindrom");
+}
