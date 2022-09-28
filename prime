@@ -1,9 +1,14 @@
-let rem=0;
+let count=0
 let num=10;
 for(let i=1;i<=num;i++){
 if(num%i==0){
-console.log("Yes);
+count++
+}
+}
+if(count==2){
+
+console.log("Prime");
 }
 else{
-console.log("No);
+console.log("Not prime");
 }
